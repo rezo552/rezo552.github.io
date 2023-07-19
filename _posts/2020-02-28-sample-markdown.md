@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+title: Site-to-site VPN with Wireguard between OpenWRT and Mikrotik
+subtitle: Simple VPN solution with Wireguard
+tags: [M]
 comments: true
 ---
 
