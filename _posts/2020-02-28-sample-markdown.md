@@ -10,4 +10,7 @@ So here is the thing, I needed to create a site-to-site VPN between a Mikrotik a
 ![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
 
 You need install the right packages in Openwrt:
-`code`  opkg install wireguard-tools luci-proto-wireguard kmod-wireguard
+`opkg install wireguard-tools luci-proto-wireguard kmod-wireguard`
+
+Additionally you need to install the following quagga packages for dynamic routing:
+`opkg install quagga quagga-ospfd quagga-vtysh quagga-zebra`
