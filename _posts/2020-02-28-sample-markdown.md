@@ -10,4 +10,4 @@ So here is the thing, I needed to create a site-to-site VPN between a Mikrotik a
 ![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
 
 You need install the right packages in Openwrt:
-
+`code`  opkg install wireguard-tools luci-proto-wireguard kmod-wireguard
